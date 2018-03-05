@@ -12,8 +12,8 @@ namespace ShipOfPassage.Common
     public class GameDatabase
     {
         // Database user login info.
-        private string _dbUid = "rtgher";  //TODO: Encrypt these.
-        private string _pass = "P4$$word"; //TODO: Encrypt these.
+        private string _dbUid = "username";  //TODO: Encrypt these.
+        private string _pass = "password"; //TODO: Encrypt these.
         // The SQL connection data.
         private string _serverAddress = "shipofpassagemysql.c7x8cl3psxgr.eu-west-2.rds.amazonaws.com";
         private string _databaseName = "ShipOfPassage";
